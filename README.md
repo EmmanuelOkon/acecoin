@@ -2,7 +2,7 @@
 
 This project is a React application.
 
-This project was hosted on Netlify and can be viewed here
+This project was hosted on Netlify and can be viewed [here](https://acepayment.netlify.app/)
 
 ## Available Scripts
 
