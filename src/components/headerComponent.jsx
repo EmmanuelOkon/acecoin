@@ -8,7 +8,7 @@ const HeaderComponent = () => {
           <Logo width={30} height={20} />
         </span>
         <span className="text-base sm:text-xl">
-          <strong>AceCoin</strong>
+          <strong className="pl-1 font-extrabold">AceCoin</strong>
           <span>Pay</span>
         </span>
       </div>

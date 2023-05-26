@@ -17,14 +17,14 @@ const FormComponent = () => {
     <div className="p-4">
       <div className="my-8 flex justify-between items-center">
         <div className="flex flex-col space-y-2">
-          <p className="font-bold text-[#1E2A52]">Card Number</p>
-          <span className="text-[#949DB7] text-sm">
+          <p className="font-bold text-deepBlue">Card Number</p>
+          <span className="text-textGrey text-sm">
             Enter 16-digit card number on the card
           </span>
         </div>
         <div className="flex items-center gap-2 text-lg">
           <EditIcon width={20} height={20} />
-          <span className="text-[#025EFF] font-semibold">Edit</span>
+          <span className="text-blue font-semibold">Edit</span>
         </div>
       </div>
       <div className="">
@@ -37,7 +37,7 @@ const FormComponent = () => {
                 iconClass="mt-[14px]"
                 placeholder="3456  -  5643  -  5643  -  2424"
                 required
-                className="bg-[#FAFCFF] border-2 border-borderWhite rounded-lg focus:outline-0 focus:border-blue focus:bg-[#EDF3FF] focus:text-deepBlue font-semibold leading-none py-5 w-full pl-16"
+                className="bg-mainBackground border-2 border-borderWhite rounded-lg focus:outline-0 focus:border-blue focus:bg-lightBlue focus:text-deepBlue font-semibold leading-none py-5 w-full pl-16"
                 onChange={(e) => {
                   const inputValue = e.target.value;
                   const sanitizedValue = inputValue.replace(/[^0-9]/g, "");
@@ -56,8 +56,8 @@ const FormComponent = () => {
             </div>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between items-center">
               <div className="w-full">
-                <p className="font-bold text-[#1E2A52]">CVV Number</p>
-                <span className="text-sm text-[#949DB7]">
+                <p className="font-bold text-deepBlue">CVV Number</p>
+                <span className="text-sm text-textGrey">
                   Enter the 3 or 4 digit number on your card
                 </span>
               </div>
@@ -76,8 +76,8 @@ const FormComponent = () => {
 
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between items-center">
               <div className="w-full">
-                <p className="font-bold text-[#1E2A52]">Expiry Date</p>
-                <span className="text-sm text-[#949DB7]">
+                <p className="font-bold text-deepBlue">Expiry Date</p>
+                <span className="text-sm text-textGrey">
                   Enter the expiration date of the card
                 </span>
               </div>
@@ -106,8 +106,8 @@ const FormComponent = () => {
 
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between items-center">
               <div className="w-full">
-                <p className="font-bold text-[#1E2A52]">Password</p>
-                <span className="text-sm text-[#949DB7]">
+                <p className="font-bold text-deepBlue">Password</p>
+                <span className="text-sm text-textGrey">
                   Enter your dynamic password
                 </span>
               </div>
