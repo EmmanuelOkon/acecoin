@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Frontend Engineer Assessment Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application.
+This project was hosted on Netlify and can be viewed here
 
 ## Available Scripts
 
