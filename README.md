@@ -1,6 +1,7 @@
 # Frontend Engineer Assessment Test
 
 This project is a React application.
+
 This project was hosted on Netlify and can be viewed here
 
 ## Available Scripts
