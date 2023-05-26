@@ -1,6 +1,6 @@
 import React from "react";
 
-const FormInput = ({ label, placeholder, placeHolderClass, type, value, onChange, rightIcon, leftIcon, className, required, maxLength, iconClass }) => {
+const FormInput = ({ placeholder, placeHolderClass, type, onChange, rightIcon, leftIcon, className, required, maxLength, iconClass }) => {
 
     return (
         <div className="flex relative w-full">

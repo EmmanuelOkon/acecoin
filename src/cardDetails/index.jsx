@@ -3,12 +3,12 @@ import Wrapper from "../components/formCoreComponent/formWrapper";
 import Header from "../components/headerComponent";
 import Form from "../components/formComponent";
 import Card from "../components/cardWrapper/card";
-import { AppleLogo } from "./Icon";
+import { AppleIcon } from "./Icon";
 import CloseButton from "../components/closeButton";
 
 const Index = () => {
   const items = [
-    { label: "Company", value: "Apple", icon: AppleLogo },
+    { label: "Company", value: "Apple", icon: AppleIcon },
     { label: "Order number", value: "1266201", icon: "" },
     { label: "Product", value: "MacBook Air", icon: "" },
     { label: "VAT (20%)", value: "$100.00", icon: "" },

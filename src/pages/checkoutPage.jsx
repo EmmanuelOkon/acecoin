@@ -1,10 +1,10 @@
 import React from "react";
-import Views from "../views";
+import CardDetails from "../cardDetails";
 
 const CheckoutPage = () => {
   return (
     <>
-      <Views />
+      <CardDetails />
     </>
   );
 };
