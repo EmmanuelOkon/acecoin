@@ -34,5 +34,8 @@ This application, as at the time of it's latest commit, shows a payment gateway 
 This application is responsive for both Tablet and Mobile devices.
 
 
-
 ![image](https://github.com/EmmanuelOkon/acecoin/assets/71082695/e718a3a7-831d-475e-b018-fa2736eabaa9)
+
+
+![image](https://github.com/EmmanuelOkon/acecoin/assets/71082695/2bde1bce-a5bf-4374-8765-e10f06a627e0)
+
